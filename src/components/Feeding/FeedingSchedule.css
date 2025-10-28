@@ -1,0 +1,76 @@
+.feeding-schedule-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feeding-schedule-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.schedule-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.schedule-icon {
+  font-size: 2rem;
+}
+
+.schedule-time {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.schedule-time h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.active-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.schedule-info {
+  margin: 1rem 0;
+}
+
+.schedule-info p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.schedule-actions {
+  margin-top: 1rem;
+}
+
+.btn-execute {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.btn-execute:hover {
+  opacity: 0.9;
+}
